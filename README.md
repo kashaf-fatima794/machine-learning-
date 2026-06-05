@@ -61,7 +61,3 @@ A classification project using the **Gaussian Naive Bayes** algorithm to predict
 * **NumPy & Pandas** (Data manipulation)
 * **Matplotlib** (Data visualization)
 * **Scikit-Learn** (ML models, Preprocessing, and Evaluation)
-
-1. Clone the repository:
-```bash
-   git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
