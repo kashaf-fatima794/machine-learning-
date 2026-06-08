@@ -8,6 +8,7 @@ Welcome to this collection of Machine Learning mini-projects! This repository sh
 1. [ TV Ad Budget vs Sales Prediction (Linear Regression)](#1-tv-ad-budget-vs-sales-prediction)
 2. [ Coffee Shop Sales Prediction (SVR & Linear Regression)](#2-coffee-shop-sales-prediction)
 3. [ Customer Purchase Prediction (Gaussian Naive Bayes)](#3-customer-purchase-prediction)
+4. [ Student Course Completion Prediction (Logistic Regression)](#4-student-course-completion-prediction)
 
 ---
 
@@ -56,8 +57,25 @@ A classification project using the **Gaussian Naive Bayes** algorithm to predict
 
 ---
 
+## 4.  Student Course Completion Prediction
+
+A classification project using **Logistic Regression** to predict whether a student will complete a course based on behavioral and performance metrics.
+
+###  Key Features
+* **Feature Separation**: Splits dataset dynamically into features (`X`) and the goal variable (`target` as `Y`).
+* **Train-Test Evaluation**: Splits data into **80% Training** and **20% Testing**, then checks accuracy on both sets using `accuracy_score`.
+* **Custom Prediction**: Includes an inference pipeline to test individual student profiles on the fly.
+
+###  Setup & Run
+* **Dataset**: Requires `student_course_data.csv`.
+* **Execution**: Pass a 2D list of metrics (e.g., `[[study_hours, attendance, assignments, past_perf, motivation]]`) to predict course completion.
+
+---
 ##  Common Technologies Used
 * **Python 3**
+* **NumPy & Pandas** (Data manipulation)
+* **Matplotlib** (Data visualization)
+* **Scikit-Learn** (ML models, Preprocessing, and Evaluation)
 * **NumPy & Pandas** (Data manipulation)
 * **Matplotlib** (Data visualization)
 * **Scikit-Learn** (ML models, Preprocessing, and Evaluation)
