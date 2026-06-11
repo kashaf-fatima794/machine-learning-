@@ -71,7 +71,7 @@ A classification project using **Logistic Regression** to predict whether a stud
 * **Execution**: Pass a 2D list of metrics (e.g., `[[study_hours, attendance, assignments, past_perf, motivation]]`) to predict course completion.
 
 ---
-##  Common Technologies Used
+##  Common Technologies used
 * **Python 3**
 * **NumPy & Pandas** (Data manipulation)
 * **Matplotlib** (Data visualization)
