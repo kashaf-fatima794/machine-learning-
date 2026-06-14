@@ -21,7 +21,7 @@ This project uses **Linear Regression** to analyze and predict product sales bas
 * **Train-Test Split**: Dynamically splits data into **80% Training** and **20% Testing** sets.
 * **Accuracy Evaluation**: Calculates the $R^2$ accuracy score to evaluate model performance.
 
-###  Setup & Run
+###  Setup and Run
 * **Dataset**: Requires a file named `data.csv`.
 * **Execution**: Run the script to predict sales for budgets like `$50`, `$100`, and `$200`.
 
